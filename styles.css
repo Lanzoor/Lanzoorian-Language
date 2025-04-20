@@ -1,0 +1,298 @@
+.glow {
+    animation: glow-highlight 4s ease-out;
+}
+
+@keyframes glow-highlight {
+    0% {
+        box-shadow: 0 0 20px 10px rgba(255, 255, 100, 0.7);
+        background-color: rgba(255, 255, 100, 0.25);
+    }
+
+    100% {
+        box-shadow: none;
+        background-color: transparent;
+    }
+}
+
+.page {
+    margin: 1rem;
+    border-radius: 12px;
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    background-color: rgb(16, 0, 43);
+    padding: 1rem;
+}
+
+body {
+    background-color: rgb(56, 18, 118);
+    font-family: monospace;
+}
+
+p,
+td,
+ul,
+ol,
+blockquote,
+ul ul,
+ol ol {
+    color: rgb(188, 147, 255)
+}
+
+p {
+    padding-bottom: 6px;
+}
+
+i,
+b,
+#checkbox_wrapper {
+    color: rgb(141, 71, 255);
+}
+
+i:hover,
+b:hover {
+    color: rgb(215, 189, 255);
+    transition: all 0.2s;
+}
+
+table,
+th,
+td {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 1px solid rgb(216, 193, 255);
+    border-collapse: collapse;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+table {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+td:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+th:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#inverted {
+    background-color: rgba(255, 172, 172, 0.601);
+    color: rgb(0, 0, 0);
+}
+
+#inverted:hover {
+    background-color: rgba(255, 26, 26, 0.601);
+    color: rgb(255, 255, 255);
+    transition: all 0.2s;
+}
+
+#inverted i,
+#inverted b {
+    color: rgb(53, 53, 53);
+    font-style: normal;
+}
+
+
+#inverted:hover i,
+#inverted:hover b {
+    color: rgb(190, 190, 190);
+    font-style: normal;
+    transition: all 0.2s;
+}
+
+h1 {
+    color: rgb(221, 197, 255);
+}
+
+h2,
+th {
+    color: rgb(200, 165, 255)
+}
+
+h3 {
+    color: rgb(150, 98, 235);
+}
+
+h1, h2, h3 {
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(132, 50, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(0, 174, 187);
+    transition: all 0.2s;
+}
+
+code {
+    background-color: rgb(31, 31, 31);
+    color: rgb(155, 121, 0);
+    padding: 0.1em 0.2em;
+    border-radius: 6px;
+}
+
+code:hover {
+    padding: 0.2em 0.6em;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+blockquote {
+    border-left: 4px solid rgb(191, 165, 255);
+    padding-left: 1em;
+    margin-left: 0;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+blockquote:hover,
+ul:hover,
+ol:hover,
+ul ul:hover,
+ol ol:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+button {
+    background-color: rgb(107, 33, 168);
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgb(192, 132, 252), 0 0 16px rgb(192, 132, 252);
+    transition: all 0.2s ease-in-out;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+
+#small-button {
+    background-color: rgb(85, 25, 135);
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 7px;
+    font-size: 10px;
+    font-family: monospace;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(192, 132, 252), 0 0 10px rgb(192, 132, 252);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    box-shadow: 0 0 12px rgb(233, 213, 255), 0 0 24px rgb(233, 213, 255);
+    background-color: rgb(126, 34, 206);
+    transform: scale(1.05);
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: rgb(118, 15, 208);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgba(90, 90, 255, 0.6);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+#back-to-top:hover {
+    background-color: #5522ff;
+    box-shadow: 0 0 15px rgba(130, 130, 255, 0.9);
+}
+
+ul {
+    padding-left: 1.5em;
+    margin: 1em 0;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+ol {
+    padding-left: 3em;
+    margin: 1em 0;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 0.2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+li {
+    margin-right: 1em;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+    line-height: 1.6;
+}
+
+ul ul,
+ol ol {
+    list-style-type: circle;
+    margin-top: 0.3em;
+    margin-left: 1em;
+}
+
+input[type="checkbox"],
+#checkbox_wrapper {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #28005c;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    position: relative;
+    appearance: none;
+    outline: none;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgb(61, 0, 182);
+}
+
+input[type="checkbox"]:checked::after {
+    content: '✔';
+    position: absolute;
+    left: 4px;
+    top: -1px;
+    color: white;
+    font-size: 14px;
+}
+
+input[type="checkbox"]:hover {
+    background-color: #4800ff;
+}
