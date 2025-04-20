@@ -22,20 +22,6 @@ anchorLinks.forEach(link => {
     });
 });
 
-scrollButtons.forEach(button => {
-    let targetId = button.dataset.target.slice(1);
-    let target = document.getElementById(targetId);
-
-    button.addEventListener('click', () => {
-        if (target) {
-            target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            target.classList.remove('glow');
-            void target.offsetWidth;
-            target.classList.add('glow');
-        }
-    });
-});
-
 if (backToTop) {
     backToTop.addEventListener('click', () => {
         const toc = document.getElementById('toc');
