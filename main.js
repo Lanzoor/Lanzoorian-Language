@@ -1,6 +1,7 @@
 let anchorLinks = document.querySelectorAll('a[href^="#"]');
 let scrollButtons = document.querySelectorAll('button[data-target]');
 let backToTop = document.getElementById('back-to-top');
+let modal = document.querySelector('.modal');
 
 anchorLinks.forEach(link => {
     let targetId = link.hash.slice(1);
@@ -30,4 +31,16 @@ if (backToTop) {
         void toc.offsetWidth;
         toc.classList.add('glow');
     });
+}
+
+if (modal) {
+    if (!localStorage.getItem('visited')) {
+        modal.classList.remove('hidden');
+        modal.addEventListener('click', () => {
+            modal.classList.add('hidden');
+            localStorage.setItem('visited', 'true');
+        });
+    } else {
+        modal.classList.add('hidden');
+    }
 }
