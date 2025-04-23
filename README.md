@@ -16,4 +16,4 @@
 
 ## Known Issues on Laptop Devices
 
-- On some laptops / PC's, the monospace font is not present, and will display a different font. This mostly has things to do with what 'monospace' font you're dealing with.
+- On some laptops / PC's, the monospace font is not present, and will display a different font. This mostly has things to do with what 'monospace' font the website is *trying* to deal with.
