@@ -8,7 +8,7 @@
     <div class="modal">
         <div class="modal-content">
             <p>Please use <b><code>Ctrl</code> + <code>Scroll Wheel</code></b> or <b><code>Ctrl</code> + <code>+</code> / <code>-</code></b> to adjust browser size to your liking.
-            <br><b style="font-size: 15px;">This website's interface and font may be buggy for mobile devices.</b></p>
+            <br><b style="font-size: 15px;">This website's interface and font may be buggy for mobile devices. Click <a href="https://github.com/Lanzoor/Lanzoorian-Language/blob/main/README.md" target="_blank" rel="noopener noreferrer">here</a> to find and acknowledge the known issues.</b></p>
         </div>
         <div class="modal-text">Click anywhere to close this modal.<br>This modal won't appear again, unless your <b>localStorage gets reset / lost.</b></div>
     </div>
@@ -21,7 +21,7 @@
     <br>Lanzoorian features the English alphabet as well as some of the Greek alphabet,
     <br>but it has a grammar similar to Korean and Japanese.
     <br>Much like the <a href="https://en.wikipedia.org/wiki/Toki_Pona" target="_blank" rel="noopener noreferrer">toki pona</a> language, it features a simple vocabulary, but not too contextless at the same time.
-    <br>Huge thanks to discord users <code>text_text_keke</code>, <code>xxxxpl4y3rxxxx</code>, and <code>_thecasualguy</code> for suggestions, general help, and inspections.</p>
+    <br>Huge thanks to Discord users <code>text_text_keke</code>, <code>xxxxpl4y3rxxxx</code>, and <code>_thecasualguy</code> for suggestions, general help, and inspections.</p>
 
     <h2>Please mind the fact that this language is still work in progress. 
     <br>Things may get added as the development goes on, and change unexpectedly.
@@ -153,7 +153,7 @@
                 <td>iða</td>
             </tr>
             <tr>
-                <td><b>Jj</b><sup><a href="#exceptions_note1">[1]</a></sup></td>
+                <td><b>Jj</b></td>
                 <td><b>/dʒ/</b></td>
                 <td><b>j</b> in <b>j</b>oke</td>
                 <td>ja</td>
@@ -201,13 +201,13 @@
                 <td>ra</td>
             </tr>
             <tr>
-                <td><b>Cc</b></td>
+                <td><b>Cc</b><sup><a href="#exceptions_note1">[1]</a></sup></td>
                 <td><b>/s/</b></td>
                 <td><b>s</b> in <b>s</b>omber</td>
                 <td>ca</td>
             </tr>
             <tr>
-                <td><b>Ss</b></td>
+                <td><b>Ss</b><sup><a href="#exceptions_note1">[1]</a></sup></td>
                 <td><b>/ʃ/</b></td>
                 <td><b>sh</b> in <b>sh</b>iver</td>
                 <td>sa</td>
@@ -225,18 +225,12 @@
                 <td>ωða</td>
             </tr>
             <tr>
-                <td><b>Ww</b></td>
-                <td><b>/w/</b></td>
-                <td><b>w</b> in <b>w</b>ay</td>
-                <td>wa</td>
-            </tr>
-            <tr>
                 <td><b>Zz</b></td>
                 <td><b>/z/</b></td>
                 <td><b>z</b> in <b>z</b>ebra</td>
                 <td>za</td>
             </tr>
-            <tr>
+            <tr style="background-color: rgba(255, 255, 255, 0.05);">
                 <td><b>Yı</b><sup><a href="#exceptions_note3">[3]</a></sup></td>
                 <td><b>/j/</b></td>
                 <td><b>y</b> in <b>y</b>ellow</td>
@@ -250,8 +244,19 @@
     <p>Here are all the exceptions and notes that clarify things.</p>
 
     <blockquote id="exceptions_note1">
-        <b>[1]</b>: Proper nouns and non-conjugated words never end in <code>Ðð</code> and <code>Jj</code>. 
-        <br> If a proper noun must end in <code>Ðð</code>, use <code>Θθ</code> instead, and if a proper noun must end in <code>Jj</code>, use <code>Zz</code>.
+        <b>[1]</b>: Proper nouns and non-conjugated words must not end in <code>Ðð</code>, <code>Cc</code>, and <code>Ss</code>.
+        <br>
+        <ul>
+            <li>
+                <code>ð</code> endings -> <code>θ</code>
+            </li>
+            <li>
+                <code>c</code> endings -> <code>z</code>
+            </li>
+            <li>
+                <code>s</code> endings -> <code>jh</code> or <code>zh</code>
+            </li>
+        </ul>
     </blockquote>
     <blockquote id="exceptions_note2">
         <b>[2]</b>: Many of you guys may struggle with the <b>/ɸ/</b> sound for the alphabet <code>Ff</code>, since it is different from <b>/f/</b> that we are all used to.
@@ -260,8 +265,7 @@
         <br>Next, combine the <b>hu</b> and <b>a</b> to the point where you are practically pronouncing the <b>hu</b> and <b>a</b> simultaneously. Now you will see yourself saying <b>/ɸa/</b>.
     </blockquote>
     <blockquote id="exceptions_note3">
-        <b>[3]</b>: If the alphabet after the alphabet <code>Ii</code> is a vowel, it is automatically switched for the <code>Yyı</code> to ease pronunciation.
-        <br>For example, because the <code>Ii</code> in <code>kia</code> follows a vowel, it must be switched for the <code>kıa</code>.
+        <b>[3]</b>: The alphabet before <code>Yı</code> must be a vowel.
     </blockquote>
     <blockquote id="exceptions_note4">
         <b>[4]</b>: <b>You always use the lowercase alphabet, except for when starting proper nouns / indicating emphasis.</b>
@@ -290,10 +294,13 @@
     <ul id="syllabary_rules">
         <li>
             You can't just mash up two or more of the same vowel to make its sound long.
-            The same applies for consonants. Omit unnecessary letters.
+            The same applies for consonants, even for syllabary structure boundaries (kom'ma). Omit unnecessary letters.
         </li>
         <li>
             Diphthongs and etc. are <b>NOT</b> present in Lanzoorian, and any vowel clusters will be <b>pronounced separately.</b>
+        </li>
+        <li id="h_rule">
+            Consonants <b>NEVER modify each others</b>.
         </li>
         <li id="separator">
             This is the separator (<code>-</code>), which separates pronunciations no matter what.
@@ -313,7 +320,7 @@
 
     <h3>Vowels</h3>
 
-    <table id="vowel-conversions" style="width: 75%; table-layout: fixed;">
+    <table id="vowel-conversions" style="width: 85%; table-layout: fixed;">
         <thead>
             <tr>
                 <th rowspan="2" colspan="2">Height ↓<br>Backness →</th>
@@ -330,7 +337,7 @@
                 <td>i<br><b>i</b></td>
                 <td>y<br><b>ıω</b></td>
                 <td colspan="2"></td>
-                <td id="inverted">ɨ<br><b>wi / i</b></td>
+                <td id="inverted">ɨ<br><b>ie / eω</b></td>
                 <td>ʉ<br><b>ıω / ω</b></td>
                 <td colspan="2"></td>
                 <td id="inverted">ɯ<br><b>ıω / ω</b></td>
@@ -382,10 +389,10 @@
             </tr>
             <tr>
                 <th colspan="2">Open</th>
-                <td colspan="2"></td>
-                <td colspan="2"></td>
                 <td>a<br><b>a</b></td>
-                <td id="inverted">ɶ<br>u</td>
+                <td id="inverted">ɶ<br><b>u</b></td>
+                <td colspan="2"></td>
+                <td colspan="2"></td>
                 <td colspan="2"></td>
                 <td id="inverted">ɑ<br><b>a</b></td>
                 <td id="inverted">ɒ<br><b>a / o</b></td>
@@ -508,7 +515,7 @@
                 <td>s<br><b>c</b></td>
                 <td>z<br><b>z</b></td>
                 <td>ʃ<br><b>s</b></td>
-                <td>ʒ<br><b>j</b></td>
+                <td>(d)ʒ<br><b>j</b></td>
                 <td id="inverted">ʂ<br><b>sr</b></td>
                 <td id="inverted">ʐ<br><b>jr</b></td>
                 <td id="inverted">ç<br><b style="font-size: 11.25px;">hı / sı</b></td>
@@ -591,15 +598,15 @@
     <p>Lanzoorian only has set pronouns for <b>I</b>, <b>you</b>, and <b>he/she/they/it</b>, and the rest is simple.</p>
 
     <blockquote>
+        Show plural pronouns instead of singular pronouns
         <label id="checkbox_wrapper">
-            Show plural pronouns instead of singular pronouns
             <input type="checkbox" id="check_pronouns">
-            <br>
-            You are currently showing <b id="stat_pronouns">singular pronouns</b>.
         </label>
+        <br>
+        You are currently showing <b id="stat_pronouns">singular pronouns</b>.
     </blockquote>
 
-    <table id="sing_pronouns" style="width: 75%; table-layout: fixed;">
+    <table id="sing_pronouns" style="width: 85%; table-layout: fixed;">
         <thead>
             <tr>
                 <th>Pronoun</th>
@@ -609,20 +616,20 @@
         <tbody>
             <tr>
                 <td>eλω</td>
-                <td><b>I</b> in any context whatsoever</td>
+                <td><b>I</b></td>
             </tr>
             <tr>
                 <td>aλen</td>
-                <td><b>You</b> in any context whatsoever</td>
+                <td><b>you</b></td>
             </tr>
             <tr>
                 <td>hakasa</td>
-                <td>Can mean <b>he, she, they, and it</b> simultaneously <b>(singular)</b></td>
+                <td><b>he, she, they, and it (singular)</b> in any context whatsoever</td>
             </tr>
         </tbody>
     </table>
 
-    <table id="plur_pronouns" class="hidden" style="width: 75%; table-layout: fixed;">
+    <table id="plur_pronouns" class="hidden" style="width: 85%; table-layout: fixed;">
         <thead>
             <tr>
                 <th>Pronoun</th>
@@ -632,43 +639,45 @@
         <tbody>
             <tr>
                 <td>eλω teλo</td>
-                <td><b>We</b> in any context whatsoever</td>
+                <td><b>We</b></td>
             </tr>
             <tr>
                 <td>aλen teλo</td>
-                <td><b>You guys</b> in any context whatsoever</td>
+                <td><b>you guys, y'all</b></td>
             </tr>
             <tr>
                 <td>hakasa teλo</td>
-                <td>Can mean <b>he, she, they, and it</b> simultaneously <b>(plural)</b></td>
+                <td><b>they (plural)</b> in any context whatsoever</td>
             </tr>
         </tbody>
     </table>
 
-    <p>To convert these pronouns into their plural forms, (i.e. <b>we</b>, <b>you guys</b>, <b>they</b>), 
-    <br>convert using the <a>plural form conversions</a>, or just click the checkbox above the table.
+    <p>To convert these pronouns into their plural forms, (i.e. <b>we</b>, <b>you guys</b>, <b>they</b>), convert using the <a href="plural">plural form conversions</a>, or just click the checkbox above the table.
     <br>Next, here are the demonstrative pronouns and demonstrative pronouns, used to either target anonymously or describe a noun.
-    <br>But before that, you will need an explanation on the locations. (Henceforth mentioned as 'location keywords')</p>
+    <br>But before that, you will need an explanation on the locations <b>where</b> the target is. (Henceforth mentioned as 'location keywords')</p>
     
     <ul>
         <li>
-            <b>"This"</b> - refers to the speaker's (in most cases, <b>you</b>) and the <b>current</b> direction.
-            It can also be used to <b>describe the thoughts of the speaker</b> (again, <b>you</b>).
+            <b>"This"</b> - refers to the speaker's (in most cases, <b>you reading this</b>, the speaker) and the <b>current</b> direction.
+            <br>It can also be used to <b>describe the thoughts of the speaker</b> (again, <b>you</b>, the speaker).
+            <br>Something like <i>"Look at <b>this</b> phone!"</i>, <i>"Have you ever met <b>that</b> teacher before?"</i> or <i>"It is very hot <b>this</b> month."</i>
         </li>
         <li>
             <b>"Direct That"</b> - refers to the listener (the opposite side)'s direction.
-            Just like "this", it can also be used to <b>describe the thoughts of the listener</b>, from your perspective.
+            <br>Just like "this", it can also be used to <b>describe the thoughts of the listener</b>, from your perspective.
+            <br>Something like <i>"What is <b>that</b> thing that you're holding?"</i>
         </li>
         <li>
             <b>"Indirect That"</b> - refers to directions that are far away from both sides.
+            <br>Something like <i>"Look at what <b>yon</b> (old equivalent of "that") dog is doing over there!"</i>
         </li>
         <li>
             <b>"What"</b> - literally means which target the speaker or the listener is targeting to.
+            <br>Something like <i>"<b>What</b> are you talking about?"</i>
         </li>
     </ul>
 
-    <p>In Lanzoorian, you use the location keywords for demonstrative pronouns or 
-    <br>combine a noun with the location keywords for demonstrative determiners.</p>
+    <p>In Lanzoorian, you use the location keywords itselves for demonstrative pronouns or combine a noun with the location keywords for demonstrative determiners.</p>
         
     <table>
         <thead>
@@ -679,20 +688,20 @@
         </thead>
         <tbody>
             <tr>
-                <td>This</td>
-                <td>doraω</td>
+                <td><b>This</b></td>
+                <td>troca</td>
             </tr>
             <tr>
-                <td>Direct That</td>
-                <td>kiraω</td>
+                <td><b>Direct That</b></td>
+                <td>kiraca</td>
             </tr>
             <tr>
-                <td>Indirect That</td>
-                <td>ıaraω</td>
+                <td><b>Indirect That</b></td>
+                <td>ıaraca</td>
             </tr>
             <tr>
-                <td>What</td>
-                <td>koλaω</td>
+                <td><b>What</b></td>
+                <td>λacaω</td>
             </tr>
         </tbody>
     </table>
@@ -700,25 +709,71 @@
     <p>You either combine these location keywords with words, or use themselves to indicate direction.
     <br>Here are some examples;</p>
 
+    <ul>
+        <li>
+            Demonstrative Pronouns
+            <ul>
+                <li>
+
+                </li>
+                <li>
+
+                </li>
+            </ul>
+        </li>
+        <li>
+            Demonstrative Determiners
+            <ul>
+                <li>
+                    <code>troca aken</code> - literally means <b>"this day", "current day" = today</b>
+                </li>
+                <li>
+                    <code>troca aken teλo</code> - literally means <b>"this many day" = "these days"</b>
+                </li>
+                <li>
+                    <code>kiraca bajo</code> - means <b>"that place" = "there"</b>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
     <blockquote>
-        <b style="font-size: 20px;">Demonstrative Pronouns</b>
-        <br>
-        <code></code>
-    </blockquote>
-    <blockquote>
-        <b style="font-size: 20px;">Demonstrative Determiners</b>
-        <br>
-        <code>doraω aken</code> - literally means <b>"this day"</b> / <b>"current day"</b>, today.
-        <br>
-        <code>doraω aken teλo</code> - literally means <b>"this many day"</b>, <b>"these days"</b>.
+        <b>Note</b>: For those who are confused with the structure;
+        <br><code>[pron.] [n.] [adj.]</code>
+        <br>You will learn about adjectives soon, so don't worry.
     </blockquote>
 
     <h3>Glossary</h3>
 
+    <p>Everytime a summary is needed, a glossary will summarize all the vocabulary shown.
+    <br><b>[pron.] shall indicate a pronoun, and [part.] shall indicate a <a href="particles">particle</a>.</b></p>
+
     <blockquote>
         <code>teλo</code> [adj.] - <b>many, a lot of</b>
+        <br><br>
         <code>aken</code> [n.] - <b>day, sun</b>
     </blockquote>
+
+    <p>And, some others that you may like (related to pronouns):</p>
+
+    <blockquote>
+        <code>tara</code> [pron.] - <b>the other, other</b> (treated like a pronoun)
+        <br>
+        (<code>tara pacona teλo</code> = <b>"other people"</b>, plural)
+        <br><br>
+        ~ <code>dona</code> [part.] - <b>also ~, any ~</b>
+        <br>
+        (<code>λacaω pacona dona</code> = "whatever person", <b>"anyone"</b>)
+        <br><br>
+        <code>ola</code> [adj.] - <b>all</b>
+        <br>
+        (<code>pacona ola</code> = "every person", <b>"everyone"</b>)
+        <br><br>
+        <code>pacona</code> [n.] - <b>person, human</b>
+        <br><br>
+        <code>bajo</code> [n.] - <b>place, location</b>
+    </blockquote>
+
     </div>
     <button id="back-to-top" title="Go to top">↑</button>
     <script src="./main.js"></script>
