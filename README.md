@@ -1,4 +1,5 @@
-> Click this link to open the website, so that you don't need to manually download the files; https://lanzoor.github.io/Lanzoorian-Language
+> Click <a href="https://lanzoor-github.io/Lanzoorian-Language" target="_blank" rel="noopener noreferrer">here</a> to open the website, or click the link below so that you don't need to manually download the files.
+> <a href="https://lanzoor-github.io/Lanzoorian-Language" target="_blank" rel="noopener noreferrer"><https://lanzoor-github.io/Lanzoorian-Language></a>
 
 # Known Issues and Bugs
 
