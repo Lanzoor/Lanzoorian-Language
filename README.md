@@ -11,9 +11,9 @@
 ## Known Issues on iOS Devices
 
 - The checkbox CSS does not work properly in most cases.
-- You can't click to activate the `:hover` CSS, unlike Android. This may not be an issue.
+- You can't tap on elements to activate the `:hover` CSS, unlike Android. This may not be an issue.
 - Again, table font size changes and certain bold tags in tables doesn't work.
 
 ## Known Issues on Laptop Devices
 
-- On some laptops / PC's, the monospace font is not present, and will display a different font. This mostly has things to do with what 'monospace' font the website is *trying* to deal with.
+- On some laptops / PC's and some browsers, the monospace font is not present, and will display a different font. This mostly has things to do with what 'monospace' font the website is *trying* to deal with.
