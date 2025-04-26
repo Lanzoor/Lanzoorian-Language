@@ -25,7 +25,8 @@
 
 body {
     background-color: rgb(56, 18, 118);
-    font-family: monospace;
+    font-family: Consolas, monospace;
+    font-size: 15px;
 }
 
 p,
@@ -175,7 +176,7 @@ button {
     border: none;
     border-radius: 12px;
     font-size: 16px;
-    font-family: monospace;
+    font-family: Consolas, monospace;
     cursor: pointer;
     box-shadow: 0 0 8px rgb(192, 132, 252), 0 0 16px rgb(192, 132, 252);
     transition: all 0.2s ease-in-out;
@@ -190,7 +191,7 @@ button {
     border: none;
     border-radius: 7px;
     font-size: 10px;
-    font-family: monospace;
+    font-family: Consolas, monospace;
     cursor: pointer;
     box-shadow: 0 0 5px rgb(192, 132, 252), 0 0 10px rgb(192, 132, 252);
     transition: all 0.3s ease;
@@ -230,7 +231,7 @@ button:hover {
 ul {
     padding-left: 1.5em;
     margin: 1em 0;
-    font-family: monospace;
+    font-family: Consolas, monospace;
     background-color: rgba(255, 255, 255, 0.03);
     border-radius: 0.2em;
     padding-top: 0.5em;
@@ -240,7 +241,7 @@ ul {
 ol {
     padding-left: 3em;
     margin: 1em 0;
-    font-family: monospace;
+    font-family: Consolas, monospace;
     background-color: rgba(255, 255, 255, 0.03);
     border-radius: 0.2em;
     padding-top: 0.5em;
