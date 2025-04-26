@@ -52,11 +52,8 @@ b {
 
 b:hover {
     color: rgb(215, 189, 255);
-    transition: all 0.2s;
-}
-
-b:hover {
     text-shadow: 0 0 1.25px rgb(215, 189, 255), 0 0 2.5px rgb(215, 189, 255), 0 0 5px rgb(215, 189, 255);
+    transition: all 0.2s;
 }
 
 table,
@@ -97,6 +94,7 @@ th:hover {
 
 #inverted:hover {
     background-color: rgba(255, 26, 26, 0.601);
+    box-shadow: 0 0 8px 8px rgba(139, 0, 0, 0.7);
     color: rgb(255, 255, 255);
     transition: all 0.2s;
 }
@@ -117,19 +115,23 @@ th:hover {
 
 h1 {
     color: rgb(221, 197, 255);
+    text-shadow: 0 0 1px rgb(221, 197, 255), 0 0 2px rgb(221, 197, 255), 0 0 3px rgb(221, 197, 255);
 }
 
 h2,
 th {
-    color: rgb(200, 165, 255)
+    color: rgb(200, 165, 255);
+    text-shadow: 0 0 0.5px rgb(200, 165, 255), 0 0 1px rgb(200, 165, 255), 0 0 1.5px rgb(200, 165, 255);
 }
 
 h3 {
     color: rgb(150, 98, 235);
+    text-shadow: 0 0 0.5px rgb(150, 98, 235), 0 0 0.5px rgb(150, 98, 235), 0 0 1px rgb(150, 98, 235);
 }
 
 h1, h2, h3 {
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 a {
@@ -145,11 +147,13 @@ a:hover {
     transition: all 0.2s;
 }
 
-code {
+code,
+code i {
     background-color: rgb(31, 31, 31);
     color: rgb(155, 121, 0);
     padding: 0.1em 0.2em;
     border-radius: 6px;
+    font-family: Consolas, monospace;
 }
 
 code:hover {
@@ -159,18 +163,22 @@ code:hover {
     box-shadow: 0 0 4px 2px rgba(255, 255, 100, 0.7);
 }
 
-code i,
 code b {
-    color: rgb(219, 185, 62);
+    color: rgb(188, 151, 19);
 }
 
+code b:hover {
+    color: rgb(234, 223, 102);
+}
 
 pre {
     background-color: rgb(56, 53, 44);
-    padding: 0.5em 0.4em;
+    padding: 0.7em 0.5em;
+    margin: 0.2em 0.3em;
     border-radius: 6px;
     overflow-x: auto;
     box-shadow: 0 0 10px 5px rgba(255, 255, 100, 0.5);
+    font-family: Consolas, monospace;
 }
 
 pre code {
@@ -178,7 +186,7 @@ pre code {
 }
 
 pre:hover {
-    padding: 0.5em 0.5em;
+    padding: 0.7em 0.7em;
     cursor: pointer;
     transition: all 0.2s;
     box-shadow: 0 0 15px 10px rgba(255, 255, 100, 0.7);
@@ -192,6 +200,7 @@ blockquote {
     border-radius: 0.2em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    font-family: Consolas, monospace;
 }
 
 blockquote:hover,
@@ -383,13 +392,13 @@ input[type="checkbox"]:hover {
 }
 
 #let3 {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #let4 {
-    font-size: 10.5px;
+    font-size: 9px;
 }
 
 #let5 {
-    font-size: 9.5px;
+    font-size: 8.5px;
 }
