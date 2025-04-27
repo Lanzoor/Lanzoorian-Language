@@ -16,7 +16,7 @@
 
 ## Known Issues on Laptop Devices
 
-- On some laptops / PC's and some browsers, the monospace font is not present, and will display a different font. This mostly has things to do with what 'monospace' font the website is *trying* to deal with. This mostly happenes with Windows 10.
+- ~~On some laptops / PC's and some OS's, the monospace font is different, and will display a different font. This mostly has things to do with what 'monospace' font the website is *trying* to deal with. This mostly happens with Windows 10.~~ **Fixed as of right now**
 - Safari can't be used to connect to the website (if you're using Windows 10 or lower)
 
 ### If you find an issue, please, feel free to DM the Discord user `Lanzoor`!
