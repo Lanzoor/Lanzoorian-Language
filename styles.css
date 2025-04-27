@@ -29,6 +29,10 @@ body {
     font-size: 15px;
 }
 
+* {
+    user-select: none;
+}
+
 p,
 sub,
 sup,
@@ -116,6 +120,7 @@ th:hover {
 h1 {
     color: rgb(221, 197, 255);
     text-shadow: 0 0 1px rgb(221, 197, 255), 0 0 2px rgb(221, 197, 255), 0 0 3px rgb(221, 197, 255);
+    font-size: 25px;
 }
 
 h2,
@@ -127,11 +132,18 @@ th {
 h3 {
     color: rgb(150, 98, 235);
     text-shadow: 0 0 0.5px rgb(150, 98, 235), 0 0 0.5px rgb(150, 98, 235), 0 0 1px rgb(150, 98, 235);
+    font-size: 20px;
+}
+
+h4 {
+    color: rgb(124, 67, 215);
+    text-shadow: 0 0 0.5px rgb(124, 67, 215), 0 0 0.5px rgb(124, 67, 215), 0 0 1px rgb(124, 67, 215);
+    font-size: 17.5px;
 }
 
 h1, h2, h3 {
     padding-top: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 a {
@@ -159,8 +171,9 @@ code i {
 code:hover {
     padding: 0.2em 0.4em;
     cursor: pointer;
-    transition: all 0.2s;
     box-shadow: 0 0 4px 2px rgba(255, 255, 100, 0.7);
+    user-select: text;
+    transition: all 0.2s;
 }
 
 code b {
@@ -173,12 +186,13 @@ code b:hover {
 
 pre {
     background-color: rgb(56, 53, 44);
-    padding: 0.7em 0.5em;
-    margin: 0.2em 0.3em;
+    padding: 0.75em 0.35em;
+    margin: 1rem 1rem;
     border-radius: 6px;
     overflow-x: auto;
     box-shadow: 0 0 10px 5px rgba(255, 255, 100, 0.5);
     font-family: Consolas, monospace;
+    user-select: text;
 }
 
 pre code {
@@ -186,10 +200,10 @@ pre code {
 }
 
 pre:hover {
-    padding: 0.7em 0.7em;
+    padding: 0.8em 0.7em;
     cursor: pointer;
-    transition: all 0.2s;
     box-shadow: 0 0 15px 10px rgba(255, 255, 100, 0.7);
+    transition: all 0.2s;
 }
 
 blockquote {
@@ -209,6 +223,7 @@ ol:hover,
 ul ul:hover,
 ol ol:hover {
     background-color: rgba(255, 255, 255, 0.06);
+    transition: all 0.2s;
 }
 
 button {
@@ -258,7 +273,7 @@ button:hover {
     height: 40px;
     font-size: 20px;
     cursor: pointer;
-    box-shadow: 0 0 20px rgba(90, 90, 255, 0.6);
+    box-shadow: 0 0 20px rgba(88, 28, 227, 0.6);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     align-items: center;
     justify-content: center;
@@ -267,7 +282,8 @@ button:hover {
 
 #back-to-top:hover {
     background-color: #5522ff;
-    box-shadow: 0 0 15px rgba(130, 130, 255, 0.9);
+    box-shadow: 0 0 15px rgba(99, 52, 216, 0.9);
+    transition: all 0.2s;
 }
 
 ul {
@@ -378,12 +394,13 @@ input[type="checkbox"]:hover {
 
 .modal-text i,
 .modal-text b {
-    color: #888
+    color: #888;
 }
 
 .modal-text i:hover,
 .modal-text b:hover {
-    color: #ddd
+    color: #ddd;
+    transition: all 0.2s;
 }
 
 .hidden {
@@ -401,4 +418,22 @@ input[type="checkbox"]:hover {
 
 #let5 {
     font-size: 8.5px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    margin: 2em 0;
+}
+
+#glossary {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5em 0.7em;
+}
+
+#glossary:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: all 0.2s;
 }
