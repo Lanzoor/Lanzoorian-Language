@@ -55,7 +55,7 @@ b {
 }
 
 b:hover {
-    color: rgb(215, 189, 255);
+    color: #fff;
     text-shadow: 0 0 1.25px #fff, 0 0 2.5px #fff, 0 0 5px #fff;
     transition: all 0.2s;
 }
