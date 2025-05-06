@@ -33,11 +33,16 @@ Here is a list of all the vocabulary in Lanzoorian, and this list will get updat
 - `akωa` (adj.) - **blue**
 - `brona` (adj.) - **brown**
 
+You basically combine the adjectives with `el` to make complex colors. 
     - `ıelo el akωa` or `akωa el ıelo` - **green** (*yellow* + *blue* = **green**)
     - `akωa el luca cota` or `luca cota el akωa` - **dark blue, navy** (*dark, black* + *blue*)
 
+
+## Common Nouns
+
+
 - `pacona` (noun) - **person, human**
-- `noho` (noun) - **place, location**
+- `noxo` (noun) - **place, location**
 - `aken` (noun) - **day**
 - `amonto` (noun) - **amount, point, number**
 
@@ -59,11 +64,17 @@ Here is a list of all the vocabulary in Lanzoorian, and this list will get updat
 
 
 `[adj.]` - **[adj.]**
+
 `[adj.] + vel amonto` - **~ness**
+
 `net′[adj.]` - **not [adj.]**
+
 `[adj.] doctıeva` - **was [adj.]**
+
 `net'[adj.] doctıeva` - **was not [adj.]**
+
 `[verb] [adj.]` - **doing [verb] [adj.]-ly** (adverb)
+
 `eito [adj.]` - **to become [adj.]**
 
 
@@ -71,11 +82,27 @@ Here is a list of all the vocabulary in Lanzoorian, and this list will get updat
 
 
 `[verb]` - **to [verb]**
+
 `[verb] vel` - **the action of doing [verb]** (noun-forms), **something to [verb]**
+
 `net′[verb]` - **to not [verb]**
+
 `[verb] doctıeva` - **was doing [verb]**, **did [verb]**
+
 `net'[verb] doctıeva` - **was not doing [verb]**, **did not [verb]**
+
 `[verb] ωile` - **to want to do [verb]**
+
 `net′[verb] ωile` - **to not want to do [verb]**
+
 `eito [verb]` - **to become to do [verb]**
-- `eito [verb] ωile` - **to become to want to do [verb]**
+
+`eito [verb] ωile` - **to become to want to do [verb]**
+
+`[verb] ixren` - **do [verb] (command)** (across all formalities)
+
+`net′[verb] ixren` - **do not do [verb]** (ditto)
+
+`[verb] naxen` - **okay to do [verb], can do [verb]**
+
+`net′[verb] naxen` - **not okay to do [verb], can't do [verb]**
