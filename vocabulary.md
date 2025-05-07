@@ -1,6 +1,21 @@
 Here is a list of all the vocabulary in Lanzoorian, and this list will get updated... A LOT.
 
 
+# Particles
+
+
+- `[S] en [O] koc [V]` -
+    - `en` - **is** -> **[S] is [O]** / **[S] is [V]-ing**
+    - `koc` - ***object marker*** -> **[S] is [V]-ing [O]** / **[V]-ing [O]**
+
+- `[1] el [2] el [3] el [4]` -
+    - `el` - **and**
+    - `[1]`, `[2]`, `[3]`, and `[4]`
+
+- `[1] ar [2] ar [3] ar [4]` -
+    - `ar` - **or**
+    - `[1]`, `[2]`, `[3]`, or `[4]`
+    
 # Adjectives
 
 
@@ -18,8 +33,8 @@ Here is a list of all the vocabulary in Lanzoorian, and this list will get updat
 ## Emotions and Feelings
 
 
-- `hepi` (adj.) - **happy, enjoyable, funny, fun**
-- `cad` (adj.) - **sad, down-feeling**
+- `xelona` (adj.) - **happy, enjoyable, funny, fun**
+- `aralona` (adj.) - **sad, down-feeling**
 
 
 ## Colors
@@ -45,6 +60,15 @@ You basically combine the adjectives with `el` to make complex colors.
 - `noxo` (noun) - **place, location**
 - `aken` (noun) - **day**
 - `amonto` (noun) - **amount, point, number**
+
+
+## Descriptive Nouns
+
+
+These nouns can describe other complex nouns.
+
+
+- `ctixka` (noun) - **any stick-like object**
 
 
 ## Everyday Verbs
