@@ -8,14 +8,13 @@ Here is a list of all the vocabulary in Lanzoorian, and this list will get updat
     - `en` - **is** -> **[S] is [O]** / **[S] is [V]-ing**
     - `koc` - ***object marker*** -> **[S] is [V]-ing [O]** / **[V]-ing [O]**
 
-- `[1] el [2] el [3] el [4]` -
+- `~ el ~` -
     - `el` - **and**
-    - `[1]`, `[2]`, `[3]`, and `[4]`
 
-- `[1] ar [2] ar [3] ar [4]` -
+- `~ ar ~` -
     - `ar` - **or**
-    - `[1]`, `[2]`, `[3]`, or `[4]`
-    
+
+
 # Adjectives
 
 
@@ -60,15 +59,7 @@ You basically combine the adjectives with `el` to make complex colors.
 - `noxo` (noun) - **place, location**
 - `aken` (noun) - **day**
 - `amonto` (noun) - **amount, point, number**
-
-
-## Descriptive Nouns
-
-
-These nouns can describe other complex nouns.
-
-
-- `ctixka` (noun) - **any stick-like object**
+- `doga` (noun) - **dog**
 
 
 ## Everyday Verbs
@@ -77,11 +68,16 @@ These nouns can describe other complex nouns.
 - `lito` (verb) - **to consume, to eat, to drink, to absorb**
 - `flokaca` (verb) - **to cut, to sever, to separate, to scatter, to shatter**
     - `flokaca telo` (verb) - **to destruct, to destroy, to obliterate** (*large* + *cut*)
-- `ecictada` (verb) - **to exist**
+- `ecicto` (verb) - **to exist**
 - `liko` (verb) - **to like**
     - `net′liko` (verb) - **to hate** (*to not like*)
 - `eito` (verb) - **to become**
 - `ωile` (verb) - **to want**
+- `iniciexeta` (verb) - **to start, to initiate**
+- `kama` (verb) - **to come, to arrive**
+- `alanıωroca` (verb) - **to know, to acknowledge, to realise**
+- `adorove` (verb) - **to draw, to scribble**
+
 
 
 ## Adjective Conjugations
@@ -113,7 +109,11 @@ These nouns can describe other complex nouns.
 
 `[verb] doctıeva` - **was doing [verb]**, **did [verb]**
 
-`net'[verb] doctıeva` - **was not doing [verb]**, **did not [verb]**
+`net′[verb] doctıeva` - **was not doing [verb]**, **did not [verb]**
+
+`[verb] kama` - **will do [verb]**
+
+`net′[verb] kama` - **won't do [verb]**
 
 `[verb] ωile` - **to want to do [verb]**
 
