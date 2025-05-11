@@ -181,7 +181,8 @@ code:hover {
     transition: all 0.2s;
 }
 
-code b {
+code b,
+b code {
     color: lch(59.79% 52.36 56);
 }
 
