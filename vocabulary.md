@@ -23,8 +23,10 @@ Here is a list of all the vocabulary in Lanzoorian, and this list will get updat
 
 - `tara` (adj.) - **the other, other, another**
 - `ola` (adj.) - **all, all of**
-- `telo` (adj.) - **many, a lot of, large, big**
-- `cota` (adj.) - **small, tiny, a small amount of**
+- `telo` (adj.) - **many, a lot of**
+- `cota` (adj.) - **a small amount of**
+- `talo` (adj.) - **big, large, massive, enourmous, huge**
+- `cata` (adj.) - **small, tiny**
 - `sama` (adj.) - **correct, same**
     - `net′sama` - **different, not the same, wrong**
 
